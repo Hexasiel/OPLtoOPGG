@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "OPLToOPGG",
+  "author": "Hexasiel",
+  "description": "Generate OPGG links from OPL Team page",
+  "action": {
+    "default_icon": {
+      "128": "OPLtoOPGG_Logo.png"
+
+    }
+  },
+  "content_scripts": [
+    {
+      "js": [ "main.js" ],
+      "matches": [ "https://www.opleague.pro/team/*" ]
+    }
+  ],
+  "host_permissions": [
+    "https://www.opleague.pro/team/*",
+    "https://www.opleague.pro/user/*"
+  ],
+  "permissions": [
+    "tabs", "activeTab"
+  ]
+}
