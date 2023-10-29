@@ -4,13 +4,13 @@
 ## Installation
 ### Opera
 - Head to the opera extensions tab (Ctrl + Shift + E)
-- Drag the ToornamentToOPGG.crx file into your browser
+- Drag the OPLToOPGG.crx file into your browser
 - Hit the install-button
 
 ### Chrome
 - Head to the chrome extensions tab ```chrome://extensions/```
 - Turn on developer mode in the upper right corner
-- Drag the ToornamentToOPGG folder into your browser or click on the **Load unpacked** button and select the folder that way
+- Drag the OPLToOPGG folder into your browser or click on the **Load unpacked** button and select the folder that way
 
 ## Usage
 
@@ -20,3 +20,4 @@ Head to an OPL Team Page. There you should see a green Button, which opens up th
 
 - Button alignment is not that nice
 - Currently only supported in Opera and Chrome. Might Provide support for other browsers later
+- Players who left the Team are unnintendetly listed aswell
