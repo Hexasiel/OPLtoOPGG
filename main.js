@@ -62,7 +62,8 @@ for (let i = 0; i < playerlinks.length; i++) {
     requests[i].onreadystatechange = function() {
         if (requests[i].readyState == 4){
             var doc = (new DOMParser).parseFromString(requests[i].responseText, "text/html");
-            team1 += doc.getElementById("launcher_13").textContent + "%2C";
+            nameText = (doc.getElementById("launcher_13").textContent.replaceAll("#", "%23") + "%2C");
+            team1 += nameText;
             finishedRequests++;
             if(finishedRequests >= playerlinks.length){
                 btn.style.background = '#CCFFCC'
